@@ -1,0 +1,16 @@
+class Acronym {
+
+	String phrase;
+
+    Acronym(String phrase) {
+        this.phrase = phrase;
+    }
+
+    String get() {
+        String [] split = this.phrase.split("\\P{Alpha}+");
+		  String result = "";
+		  for(String word : split) result+=word.charAt(0);
+		  return result.toUpperCase();
+    }
+
+}

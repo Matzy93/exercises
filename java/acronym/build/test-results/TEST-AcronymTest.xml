@@ -1,0 +1,12 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="AcronymTest" tests="6" failures="0" errors="0" timestamp="2017-11-06T11:58:08" hostname="matzy-Inspiron-N5110" time="0.006">
+  <properties/>
+  <testcase name="fromTitleCasedPhrases" classname="AcronymTest" time="0.004"/>
+  <testcase name="fromPhrasesWithPunctuationAndSentenceCasing" classname="AcronymTest" time="0.0"/>
+  <testcase name="fromOtherPhrasesWithPunctuation" classname="AcronymTest" time="0.0"/>
+  <testcase name="fromPhrasesWithNonAcronymAllCapsWord" classname="AcronymTest" time="0.0"/>
+  <testcase name="fromOtherTitleCasedPhrases" classname="AcronymTest" time="0.0"/>
+  <testcase name="fromPhrasesWithPunctuation" classname="AcronymTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

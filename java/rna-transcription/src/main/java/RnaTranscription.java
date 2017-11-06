@@ -1,0 +1,18 @@
+
+class RnaTranscription {
+
+    String transcribe(String dnaStrand) {
+        if(dnaStrand == null) return null;
+		  if(dnaStrand.equals("")) return null;
+		  String rnaStrand = "";
+		  for(char c : dnaStrand.toCharArray()){
+			  if(c=='A') rnaStrand+='U';
+			  else if(c=='T') rnaStrand+='A';
+			  else if(c=='C') rnaStrand+='G';
+			  else if(c=='G') rnaStrand+='C';
+			  else throw new IllegalArgumentException("Invalid input") ;
+		  }
+		  return rnaStrand;
+    }
+
+}
